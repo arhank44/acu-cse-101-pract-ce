@@ -87,6 +87,13 @@ import math  # noqa: F401
 #    print(cup_a, cup_b, cup_c, sep=" -> ")
 # ------------------------------------------------------------------------------
 # TODO: Write your code for Challenge 4 below:
+cup_a = input("Enter item in Cup A: ").strip()
+cup_b = input("Enter item in Cup B: ").strip()
+cup_c = input("Enter item in Cup C: ").strip()
+
+cup_a, cup_b, cup_c = cup_c, cup_a, cup_b
+
+print(cup_a, cup_b, cup_c, sep=" -> ")
 
 
 # ------------------------------------------------------------------------------
