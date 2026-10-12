@@ -70,7 +70,7 @@ import math  # noqa: F401
 # TODO: Write your code for Challenge 3 below:
 
 
-# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------€
 # Challenge 4: 3-Cup Shell Game (Cyclic Variable Rotation)
 # In class we swapped 2 variables (a, b = b, a).
 # Now let's perform a 3-cup cyclic rotation in a single multiple assignment!
@@ -87,6 +87,7 @@ import math  # noqa: F401
 #    print(cup_a, cup_b, cup_c, sep=" -> ")
 # ------------------------------------------------------------------------------
 # TODO: Write your code for Challenge 4 below:
+
 cup_a = input("Enter item in Cup A: ").strip()
 cup_b = input("Enter item in Cup B: ").strip()
 cup_c = input("Enter item in Cup C: ").strip()
@@ -121,4 +122,20 @@ print(cup_a, cup_b, cup_c, sep=" -> ")
 # ------------------------------------------------------------------------------
 # TODO: Write your code for Challenge 5 below:
 
+Attendee_full_name = input('Enter attendee name: ').strip()
+Department = input('Enter department: ').strip()
+Role = input('Enter role: ').strip()
 
+Attendee_full_name: name.title()
+Department: dept.upper()
+Role: role.title()
+
+border = * 32
+print(f'NAME: {name}')
+print(f'DEPT: {dept}')
+print(f'ROLE: {role}')
+print(f'NAME LENGTH: {len(name)}')
+print(border)
+
+
+    
